@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520C2CCA2562DA8B002AA5C9 /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 520C2CC92562DA8B002AA5C9 /* Models.scnassets */; };
 		52B316BC2562D35200206C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B316BB2562D35200206C76 /* AppDelegate.swift */; };
 		52B316BE2562D35200206C76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B316BD2562D35200206C76 /* SceneDelegate.swift */; };
-		52B316C02562D35200206C76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B316BF2562D35200206C76 /* ViewController.swift */; };
+		52B316C02562D35200206C76 /* WearMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B316BF2562D35200206C76 /* WearMaskViewController.swift */; };
 		52B316C32562D35200206C76 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B316C12562D35200206C76 /* Main.storyboard */; };
 		52B316C52562D35500206C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B316C42562D35500206C76 /* Assets.xcassets */; };
 		52B316C82562D35500206C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B316C62562D35500206C76 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		520C2CC92562DA8B002AA5C9 /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
 		52B316B82562D35200206C76 /* WearMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WearMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52B316BB2562D35200206C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52B316BD2562D35200206C76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52B316BF2562D35200206C76 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52B316BF2562D35200206C76 /* WearMaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WearMaskViewController.swift; sourceTree = "<group>"; };
 		52B316C22562D35200206C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52B316C42562D35500206C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B316C72562D35500206C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +60,12 @@
 			children = (
 				52B316BB2562D35200206C76 /* AppDelegate.swift */,
 				52B316BD2562D35200206C76 /* SceneDelegate.swift */,
-				52B316BF2562D35200206C76 /* ViewController.swift */,
+				52B316BF2562D35200206C76 /* WearMaskViewController.swift */,
 				52B316C12562D35200206C76 /* Main.storyboard */,
 				52B316C42562D35500206C76 /* Assets.xcassets */,
 				52B316C62562D35500206C76 /* LaunchScreen.storyboard */,
 				52B316C92562D35500206C76 /* Info.plist */,
+				520C2CC92562DA8B002AA5C9 /* Models.scnassets */,
 			);
 			path = WearMask;
 			sourceTree = "<group>";
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520C2CCA2562DA8B002AA5C9 /* Models.scnassets in Resources */,
 				52B316C82562D35500206C76 /* LaunchScreen.storyboard in Resources */,
 				52B316C52562D35500206C76 /* Assets.xcassets in Resources */,
 				52B316C32562D35200206C76 /* Main.storyboard in Resources */,
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52B316C02562D35200206C76 /* ViewController.swift in Sources */,
+				52B316C02562D35200206C76 /* WearMaskViewController.swift in Sources */,
 				52B316BC2562D35200206C76 /* AppDelegate.swift in Sources */,
 				52B316BE2562D35200206C76 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,16 +291,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7L4PCJ79TV;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WearMask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexantonov.WearMask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yournamehere.WearMask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -306,16 +310,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7L4PCJ79TV;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = WearMask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.alexantonov.WearMask;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yournamehere.WearMask;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
